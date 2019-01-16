@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Bootstrap stylesheet CDN-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      hr {
+        border: 1px solid #000000;
+        width: 60%;
+      }
+    </style>
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+
+    <meta charset="UTF-8" />
+
+    <title>YL Drinking Games</title>
+  </head>
+  <body>
+    <header>
+      <img class="d-block mx-auto pt-2" src="images/YDG-Logo.png" />
+      <hr />
+    </header>
+
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <!--Game Card-->
+          <div class="col-lg-4 col-xs-12">
+            <div class="card mb-3">
+              <img
+                class="card-img-top img-rounded"
+                src="images/cheers.png"
+                alt="Card Image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Let's Get Drunk</h5>
+                <p class="card-text">
+                  This card-game will make you drunk! Compete, vote and screw
+                  your friends over with 100 dynamic cards, no two games are the
+                  same. It is super easy to play, perfect for your next party,
+                  pregame or nights in.
+                </p>
+                <p class="text-muted">Number of players: 2-8</p>
+                <p class="text-muted">Ages: 21+</p>
+                <a
+                  href="#"
+                  class="btn btn-outline-success"
+                  data-toggle="modal"
+                  data-target="#lgdModal"
+                  >How To Play</a
+                >
+                <a href="letsgetdrunk.html" class="btn btn-primary">Play Now</a>
+              </div>
+            </div>
+          </div>
+          <!--End of Game Card-->
+
+          <!--Modal for Let's Get Drunk-->
+          <div
+            class="modal fade"
+            id="lgdModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="lgdModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="lgdModalLabel">
+                    How to play: Let's Get Drunk
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  The phone is passed around in a clockwise direction. During
+                  each turn, a player clicks the button "Next Card" and reads
+                  the content of the card out loud. Follow the instructions on
+                  the card to determine who drinks that round. <br /><br />
+                  Let the drinking and hilarity ensue!
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End Modal for Let's Get Drunk-->
+
+          <!--Game Card-->
+          <div class="col-lg-4 col-xs-12">
+            <div class="card mb-3">
+              <img
+                class="card-img-top img-rounded"
+                src="images/paint.png"
+                alt="Card Image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Drunken Artist</h5>
+                <p class="card-text">
+                  In this version of Pictionary, being bad at drawing will get
+                  you drunk.
+                </p>
+                <p class="text-muted">Number of players: 4-8</p>
+                <p class="text-muted">Ages: 21+</p>
+                <a
+                  href="#"
+                  class="btn btn-outline-success"
+                  data-toggle="modal"
+                  data-target="#daModal"
+                  >How To Play</a
+                >
+                <a href="drunkenartist.html" class="btn btn-primary"
+                  >Play Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--End of Game Card-->
+
+          <!--Modal for Drunken Artist-->
+          <div
+            class="modal fade"
+            id="daModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="daModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="daModalLabel">
+                    How to play: Drunken Artist
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Players take turns being the client and being the artist. At
+                  the beginning of each round, the client will whisper a word to
+                  the artist and start the clock. As the artist draws the word,
+                  the rest of the players shout out what they think the picture
+                  is supposed to be. <br /><br />
+                  After someone guesses correctly, the artist stops the timer.
+                  The artist have to take a drink for every 20 seconds that went
+                  by. If 2 minutes is up and none guesses correctly, the artist
+                  must take a shot.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End Modal for Drunken Artist-->
+        </div>
+      </div>
+    </section>
+
+    <!--Footer Section-->
+    <hr />
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted text-center">Created by You Liang, 2019</p>
+        <p class="text-muted text-center">adenchuayouliang@gmail.com</p>
+      </div>
+    </footer>
+
+    <!--JavaScripts-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
